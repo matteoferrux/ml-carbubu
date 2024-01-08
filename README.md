@@ -6,7 +6,7 @@
 
 
 
-"ML-Carbubu is a machine learning model project designed to predict fuel prices at service stations in France. The project is based on the "Machine Learning with Django" service.
+"ML-Carbubu" is a machine learning model project designed to predict fuel prices at service stations in France. The project is based on the "Machine Learning with Django" service.
 
 This project and model are part of my third year studying Information and Document Sciences at the University of Lille.
 
