@@ -4,7 +4,7 @@ import pandas as pd
 
 class RandomForestClassifier:
     def __init__(self):
-        path_to_artifacts = "research/"
+        path_to_artifacts = "../../research/"
         self.values_fill_missing =  joblib.load(path_to_artifacts + "train_mode.joblib")
         self.encoders = joblib.load(path_to_artifacts + "encoders.joblib")
         self.model = joblib.load(path_to_artifacts + "random_forest.joblib")
@@ -33,7 +33,7 @@ class RandomForestClassifier:
 
     def postprocessing(self, input_data):
         label = "<=1"
-        if input_data[0] > 2:
+        if input_data[1] > 2:
             label = ">2"
         return {"probability": input_data[1], "label": label, "status": "OK"}
 

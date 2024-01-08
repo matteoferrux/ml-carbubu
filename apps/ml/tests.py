@@ -10,7 +10,7 @@ class MLTests(TestCase):
             "sp98": "2",
             "e10": "2",
             "gplc": "1",
-            "e85": "1",
+            "e85": "1"
         }
         my_alg = RandomForestClassifier()
         response = my_alg.compute_prediction(input_data)
