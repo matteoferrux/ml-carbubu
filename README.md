@@ -10,7 +10,8 @@
 
 This project and model are part of my third year studying Information and Document Sciences at the University of Lille.
 
-
+> [!NOTE]  
+> La documentation de ce projet n'est pas encore complète et comporte des erreurs.
 
 
 ## Testing
